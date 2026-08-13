@@ -159,12 +159,12 @@
     </form>
 
     <p>
-        <h2>Search Anything..</h2>
-        <form action="https://www.google.com/search">
-            <label for="search_item">Search here</label>
-            <input type="text" id="search_item" name="q">
-            <button>Search</button>
-        </form>
+    <h2>Search Anything..</h2>
+    <form action="https://www.google.com/search">
+        <label for="search_item">Search here</label>
+        <input type="text" id="search_item" name="q">
+        <button>Search</button>
+    </form>
     </p>
 
     <h2>Checkbox</h2>
@@ -186,7 +186,7 @@
 
         <input type="radio" id="S" name="size" value="S">
         <label for="S">S size</label>
-        
+
         <button>Submit</button>
 
     </form>
@@ -202,6 +202,64 @@
         </select>
 
         <button type="submit">Submit</button>
+
+    </form>
+
+    <h2>Race Registration</h2>
+
+    <form action="/data">
+
+        <label for="first_name">First Name</label>
+        <input type="text" id="first_name" required>
+
+        <label for="last_name">First Name</label>
+        <input type="text" id="last_name" required>
+
+        <br>
+
+        <h4>Select a Race:</h3>
+
+            <input type="radio" id="fun_run" name="race" value="fun_run">
+            <label for="'fun_run">Fun Run 5k</label>
+
+            <br>
+
+            <input type="radio" id="half_marathon" name="race" value="half_marathon">
+            <label for="'half_marathon">Half Marathon</label>
+
+            <br>
+
+            <input type="radio" id="full_marathon" name="race" value="full_marathon">
+            <label for="'full_marathon">Full Marathon</label>
+
+            <br>
+            <br>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+
+            <label for="last_name">First Name</label>
+            <input type="text" id="last_name" required>
+
+            <label for="age_menu">Select Age</label>
+
+
+            <br>
+            <br>
+
+            <button type="submit">Register</button>
+            
+            <br>
+            <br>
+
+            <label id="age">Select Age</label>
+            <br>
+            <select name="age" id="age">
+                <option value="18">18</option>
+                <option value="20">20</option>
+                <option value="22">22</option>
+            </select>
+            <button type="submit">Submit</button>
 
     </form>
 
