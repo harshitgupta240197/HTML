@@ -154,6 +154,55 @@
                 <td><input type="date" id="date"></td>
             </tr>
         </table>
+        <br>
+        <button>Submit</button>
+    </form>
+
+    <p>
+        <h2>Search Anything..</h2>
+        <form action="https://www.google.com/search">
+            <label for="search_item">Search here</label>
+            <input type="text" id="search_item" name="q">
+            <button>Search</button>
+        </form>
+    </p>
+
+    <h2>Checkbox</h2>
+    <form action="/random">
+
+        <input type="checkbox" id="agree" name="q">
+        <label for="agree">I agree to the terms and conditions</label>
+
+        <input type="checkbox" id="agree" name="q" checked>
+        <label for="agree">I agree for ads</label>
+
+    </form>
+
+    <h2>Radio Button</h2>
+    <form action="/radiocheckingrandom">
+
+        <input type="radio" id="L" name="size" value="L">
+        <label for="L">L size</label>
+
+        <input type="radio" id="S" name="size" value="S">
+        <label for="S">S size</label>
+        
+        <button>Submit</button>
+
+    </form>
+
+    <h2>Drop Down Select</h2>
+    <form action='/young'>
+
+        <select>
+            <option value="people">People</option>
+            <option value="animals">Animals</option>
+            <option value="things">People</option>
+            <option value="cars">Car</option>
+        </select>
+
+        <button type="submit">Submit</button>
+
     </form>
 
 </body>
